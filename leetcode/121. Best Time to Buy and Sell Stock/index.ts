@@ -7,6 +7,7 @@ const maxProfit = (prices: number[]): number => {
         }
 
         const newProfit = prices[i] - buy;
+        
         if (newProfit > profit) {
             profit = newProfit;
         }
